@@ -72,8 +72,8 @@ namespace Shop
                             Count = count,
                             Provider = CurrentSeller.Name,
                             ProviderId = CurrentSeller.Id,
-                            StartDay = DateTime.Now,
                             DeletedDate = null,
+                            StartDay = DateTime.Now,
                         };
 
                         set.Add(product);
